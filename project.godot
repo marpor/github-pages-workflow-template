@@ -11,9 +11,16 @@ config_version=5
 [application]
 
 config/name="github-pages-workflow-template"
+run/main_scene="res://placeholder.tscn"
 config/features=PackedStringArray("4.3", "Mobile")
 config/icon="res://icon.svg"
+
+[display]
+
+window/stretch/mode="viewport"
+window/stretch/aspect="expand"
 
 [rendering]
 
 renderer/rendering_method="mobile"
+environment/defaults/default_clear_color=Color(0, 0, 0, 1)
